@@ -1,0 +1,19 @@
+{
+  "name": "labs-next",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "common-styles": "1.0.0",
+    "next": "^13.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27"
+  }
+}
