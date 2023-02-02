@@ -3,5 +3,5 @@
 dev
 
 ```
-yarn workspace labs-next run dev
+yarn workspace next13 run dev
 ```

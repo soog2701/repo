@@ -394,6 +394,11 @@ color-name@~1.1.4:
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
+common-styles@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/common-styles/-/common-styles-0.0.1-security.tgz#d53a8bac79d28ceada129d17034d2765d21f26e3"
+  integrity sha512-KeUM9XDKW2uPgA7W6tN0Dvl14r86lPc/OxLrMk+UX+DcDNKUAQzSf7LgkwTGS3jhHn4qULqcDvX8ldaghOxNlg==
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
