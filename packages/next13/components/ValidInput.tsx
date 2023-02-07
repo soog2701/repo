@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { Input } from '@nextui-org/react';
 import { useForm } from 'react-hook-form';
