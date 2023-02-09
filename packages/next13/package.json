@@ -2,6 +2,7 @@
   "name": "next13",
   "version": "1.0.0",
   "license": "MIT",
+  "packageManager": "yarn@1.22.19",
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.12",
     "common-styles": "^0.0.1-security",
