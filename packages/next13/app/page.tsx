@@ -1,11 +1,11 @@
-import DetailTable from '@/components/DetailTable';
+import ValidForm from '@/components/ValidForm';
 
 export default function Home() {
   return (
     <div>
       next js 13
       <div>
-        <DetailTable title='test' />
+        <ValidForm title='test' />
       </div>
     </div>
   );
