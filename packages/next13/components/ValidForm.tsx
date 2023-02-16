@@ -13,6 +13,7 @@ export const inputType = {
 type ItemType = {
   title?: string;
   elem?: ElementType;
+  // value?: string | number;
 };
 
 interface ComponentProps extends HTMLAttributes<HTMLOrSVGElement> {
@@ -23,8 +24,9 @@ const InputStatus: FC<ComponentProps> = ({
   as: Tag = ValidInput,
   ...props
 }) => {
-  if (typeof Tag !== undefined) return <Tag {...props} />;
-  else return <div>error</div>;
+  if (typeof Tag !== undefined) {
+    return <Tag {...props} />;
+  } else return <div>error</div>;
 };
 
 const Item = ({ title = 'title', elem = inputType.input }: ItemType) => {
@@ -44,7 +46,8 @@ export default function DetailTable({ title, elem }: ItemType) {
   return (
     <Grid.Container justify='center' gap={0}>
       <Grid xs>
-        <Item title={title} elem={elem} />
+        {/* <Item title={title} elem={elem} /> */}
+        <div>{title}</div>
       </Grid>
     </Grid.Container>
   );
