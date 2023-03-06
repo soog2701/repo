@@ -1,9 +1,25 @@
 'use client';
-import React, { ElementType, HTMLAttributes, FC } from 'react';
+import React, {
+  ElementType,
+  HTMLAttributes,
+  FC,
+  ReactNode,
+  PropsWithChildren,
+} from 'react';
 import { Grid, Row, Col, Radio } from '@nextui-org/react';
 import loadable from '@loadable/component';
 
 const ValidInput = loadable(() => import('./ValidInput'));
+
+type Props = PropsWithChildren<{
+  type?: 'primary' | 'danger' | 'light' | 'dark';
+  style?: 'fill' | 'outline' | 'weak' | 'flat';
+  display?: 'inline' | 'block' | 'full';
+
+  className?: string;
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  disabled?: boolean;
+}>;
 
 export const inputType = {
   input: ValidInput,
