@@ -1,5 +1,7 @@
+'use client';
 import ValidForm from '@/components/ValidForm';
 import List from '@/components/List';
+import Select from '@/components/Select';
 
 export default function Home() {
   return (
@@ -23,6 +25,22 @@ export default function Home() {
           )}
         />
       </ul>
+      <div>
+        <Select
+          options={[
+            { value: 'a', text: 'a', id: 1 },
+            { value: 'b', text: 'b', id: 2 },
+            { value: 'c', text: 'c', id: 3 },
+          ]}
+          onSelect={(data) => {
+            console.log(data);
+          }}
+        ></Select>
+        <div>
+          <span>Select Data :</span>
+          <pre>-</pre>
+        </div>
+      </div>
     </div>
   );
 }
