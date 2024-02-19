@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import RandomWheel from './components/RamdomWheel';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +15,7 @@ function App() {
       <Container>
         <Row>
           <Col>
-            <UiButton>test</UiButton>
+            <RandomWheel />
             <Button as='a' variant='primary'>
               Button as link
             </Button>
