@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
       // 필요시 외부 이미지 패턴 추가
     ],
   },
+  assetPrefix:
+    process.env.NODE_ENV === "production"
+      ? "https://soog2701.github.io/repo"
+      : "",
   // Tailwind, PostCSS 등은 별도 설정 파일에서 관리됨
 
 };
